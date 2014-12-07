@@ -33,6 +33,8 @@ public class JUnitVehicleTest {
 		fail("Not yet implemented");
 	}
 	
-	assertNotEquals(c.NumberOfDoors,t.NumberOfAxels);
+	assertEquals(car.doors,4);
+	assertEquals(truck.axels, 2);
+	
 
 }
